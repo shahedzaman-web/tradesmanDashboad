@@ -16,7 +16,7 @@ const routes = [
     icon: "ni ni-archive-2 text-green",
     component: Login,
     layout: "/auth",
-    invisible: true
+    invisible: true,
   },
   {
     path: "/dashboard",
@@ -44,7 +44,7 @@ const routes = [
         miniName: "U",
         component: Users,
         layout: "/admin",
-      }
+      },
     ],
   },
   {
@@ -62,28 +62,7 @@ const routes = [
     component: Bookings,
     layout: "/admin",
   },
-  // // {
-  // //   collapse: true,
-  // //   name: "Reports List",
-  // //   icon: "ni ni-bullet-list-67 text-default",
-  // //   state: "reportsCollapse",
-  // //   views: [
-  // //     {
-  // //       path: "/reports/messages",
-  // //       name: "Messages",
-  // //       miniName: "M",
-  // //       component: Messages,
-  // //       layout: "/admin",
-  // //     },
-  // //     {
-  // //       path: "/reports/works",
-  // //       name: "Works",
-  // //       miniName: "W",
-  // //       component: Works,
-  // //       layout: "/admin",
-  // //     }
-  // //   ],
-  // // },
+
   {
     path: "/posts",
     name: "Posts",
@@ -111,7 +90,7 @@ const routes = [
     icon: "ni ni-money-coins text-info",
     component: ServiceFee,
     layout: "/admin",
-  }
+  },
 ];
 
 export default routes;
